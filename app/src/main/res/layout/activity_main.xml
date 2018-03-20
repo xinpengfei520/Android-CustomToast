@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.xpf.customtoast.MainActivity">
+
+    <Button
+        android:id="@+id/btnRedToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="红色Toast"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnGreenToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="绿色Toast"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnYellowToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="黄色Toast"
+        android:textAllCaps="false" />
+
+</LinearLayout>
