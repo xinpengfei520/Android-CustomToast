@@ -29,7 +29,7 @@ public class CustomToastUI {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         // 自定义布局
         View view = inflater.inflate(layoutId, null);
-        // 设置Toast布局可以到系统状态栏
+        // 设置Toast布局可以到系统状态栏 SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
         view.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
         // 自定义toast文本
         mTextView = (TextView) view.findViewById(R.id.tvResult);

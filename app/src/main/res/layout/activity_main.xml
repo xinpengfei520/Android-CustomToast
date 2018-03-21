@@ -11,7 +11,7 @@
         android:id="@+id/btnRedToast"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="红色Toast"
+        android:text="红色顶部Toast"
         android:textAllCaps="false" />
 
     <Button
@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="绿色Toast"
+        android:text="绿色顶部Toast"
         android:textAllCaps="false" />
 
     <Button
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="黄色Toast"
+        android:text="黄色顶部Toast"
         android:textAllCaps="false" />
 
 </LinearLayout>
